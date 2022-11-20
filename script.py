@@ -1,4 +1,4 @@
-"""Module Docstring"""
+"""Module Docstring GitHub"""
 import sys
 import requests
 
