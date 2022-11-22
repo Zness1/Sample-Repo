@@ -1,15 +1,15 @@
-"""Converting functions into generators"""
-# A generator is a type of function,
-#   but instead of returning a value or object it 'yields' values one at a time
-#   without having to store the return value in memory.
-# To convert a function to a generator, use the keyword 'yield' instead of 'return'.
-# A list holds all the values in memory.
-# A generator will return the next item and
-#   experience performance enhancements with large amounts of data.
-# A generator is useful for extreme performance enhancement with large datak
-# A generator is an 'iterator' function that performs an action 1 at a time
-#   without having to pull in an entire database, dataset, list or dictionary.
-
+"""Converting functions into generators:
+A generator is a type of function,
+    but instead of returning a value or object it 'yields' values one at a time
+    without having to store the return value in memory.
+To convert a function to a generator, use the keyword 'yield' instead of 'return' at the end.
+A list holds all the values in memory, reducing performance and memory.
+A generator will return the next item and
+    experience performance enhancements with large amounts of data.
+A generator is useful for extreme performance enhancement with large datasets.
+A generator is an 'iterator' function that performs an action 1 at a time
+    without having to pull in an entire database, dataset, list or dictionary.
+"""
 
 def square_numbers(nums):
     """Function that takes a list and returns a list of the squares"""
